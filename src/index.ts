@@ -14,7 +14,6 @@ export * from "./components/Carousel";
 export * from "./components/Collapsible";
 export * from "./components/Command";
 
-
 export * from "./components/Dialog";
 
 export * from "./components/Input";
@@ -26,3 +25,5 @@ export * from "./components/Textarea";
 export * from "./components/Tabs";
 
 export * from "./components/Menubar";
+
+export { default as useOAuthClient } from "./hooks/oauth";
